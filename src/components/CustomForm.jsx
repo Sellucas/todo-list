@@ -1,5 +1,7 @@
-import { PlusIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
+
+// library imports
+import { PlusIcon } from "@heroicons/react/24/solid";
 
 const CustomForm = ({ addTask }) => {
   const [task, setTask] = useState("");
@@ -38,5 +40,4 @@ const CustomForm = ({ addTask }) => {
     </form>
   );
 };
-
 export default CustomForm;
