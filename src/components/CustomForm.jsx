@@ -29,6 +29,7 @@ const CustomForm = ({ addTask }) => {
           autoFocus
           maxLength={60}
           placeholder="Enter Task"
+          autocomplete="off"
         />
         <label htmlFor="task" className="label">
           Enter Task
